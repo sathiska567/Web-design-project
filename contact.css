@@ -1,0 +1,355 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  }
+
+body{
+  overflow-x: hidden;
+  /* margin: 0px 100px; */
+ 
+}
+  
+  /* container */
+  
+  .container{
+      background-color: aqua;
+      /* margin: 30px; */
+      width: 100%;
+      height: 100%;
+  }
+
+
+  .first-table{
+    background-image: url("./images/c-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+   }
+   
+   
+   .first-table-first-td{
+       /* background-color: aqua; */
+       padding: 15px;
+       text-align: center;
+       color: azure;
+       font-family: sans-serif;
+  
+   
+   }
+
+   .with-student{
+    width: 40%;
+    border-radius: 30px;
+   }
+   
+   
+   
+   .first-table-first-td-link{
+       padding: 40px;
+       list-style: none;
+   }
+   
+   .first-table-first-td-link a{
+       color: white;
+       font-size: 30px;
+       padding-bottom: 10px;
+       text-decoration: none;
+       float: left;
+       background-color: green;
+       padding: 10px;
+       margin-top: 10px;
+       border-radius: 20px;
+   }
+   
+   .first-table-first-td-link a:hover{
+       border-bottom: 1px solid red;
+       cursor: pointer;
+       color: rgb(36, 237, 251);
+   }
+   
+   .sub-table{
+       width: 100%;
+       height: 100vh;
+   }
+   
+   .sub-table-first-image{
+       /* background-image: url("./images 01/achievment01.jpg");
+       background-repeat: no-repeat;
+       background-size: cover; */
+       height: 50%;
+       background-color: rgb(115, 117, 117,o.8);
+   }
+   
+   .sub-table-first-para{
+       background-color: rgb(0,0,0); /* Fallback color */
+       background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+       color: white;
+       font-weight: bold;
+       margin-left: 50%;
+       font-family: sans-serif;
+       border: 3px solid #f1f1f1;
+       /* position: absolute; */
+       transform: translate(-50%, -50%);
+       z-index: 2;
+       width: 80%;
+       padding: 50px;
+       text-align: center;
+       box-shadow: 0px 40px 60px 60px rgba(0, 0, 0, 0.2), 0px 0px 50px 0 rgba(0, 0, 0, 0.19);
+   
+   }
+
+   .with-student{
+    width: 500px;
+   }
+
+
+   /* style sign in page */
+
+   .container01 input[type=text],input[type=password]{
+ 
+    width: 100%;
+    padding: 5px;
+   }
+
+   .container01 input[type=submit]{
+          padding: 8px;
+          background-color: green;
+          border: none;
+          cursor: pointer;
+          font-weight: 600;
+          opacity: 0.9;
+   }
+
+   .container01 input[type=submit]:hover{
+    opacity: 1;
+     
+   }
+  
+  /* stryle head section */
+  .head-section h1{
+      background-color: antiquewhite;
+      padding: 10px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+      font-size: 40px;
+      /* position: relative; */
+      animation-name: changePosition;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      /* animation-direction: alternate; */
+      animation-timing-function: linear;
+      animation-delay: 2s;
+  
+  }
+  
+  @keyframes changePosition {
+      0%{
+         left: 0px;
+         right: 0px; 
+      }
+  
+      25%{
+          left: 0px;
+          right: 500px; 
+      }
+  
+      50%{
+          left: 1000px;
+          right: 1000px; 
+      }
+  
+      75%{
+          left: 500px;
+          right: 0px; 
+      }
+  
+      100%{
+          left: 0px;
+          right: 0px;
+      }
+  }
+  
+  
+  /* style navigation bar section */
+  .navigation-section{
+      background-color: rgb(247, 182, 97);
+  }
+  
+  .navigation-section ul li{
+      display: inline-block;
+      padding: 15px;
+  }
+  
+  .navigation-section ul li a{
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+  }
+  
+  .navigation-section ul li a:hover{
+      text-decoration: underline red;
+  }
+
+
+  /* style introduction section */
+.intro-content h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  padding: 220px 0px;
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  position: relative;
+}
+
+@keyframes anim {
+  0%{
+      color: aqua;
+  }
+
+  50%{
+      color: red;
+  }
+
+  100%{
+      color: rgb(255, 179, 57);
+  }
+}
+
+
+
+.container1 {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    margin: 70px;
+    padding: 10px;
+    box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.5), 0px 10px 8px 0px rgba(0, 0, 0, 0.25);
+
+
+  }
+
+.intro-content table tr td{
+  margin: 30px;
+}
+  
+  .container1 img {
+    display: block;
+    width: 50%;
+    height: 30vh;
+    background-color: bisque;
+    margin:20px 0px 20px 100px;
+    border-radius: 20px;
+  }
+
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 70%;
+    height: 0;
+    transition: .5s ease;
+    margin:20px 0px 20px 60px;
+  }
+  
+  .container1:hover .overlay {
+    height: 50vh;
+    transition: 2s ease;
+    -webkit-transition: 2s ease;
+    -moz-transition: 2s ease;
+    -ms-transition: 2s ease;
+    -o-transition: 2s ease;
+}
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+
+/* style contact section */
+
+.contact-section {
+  background-color: black;
+}
+
+.contact-section input{
+  padding: 10px;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.contact-section button{
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+.contact-section button:hover{
+  background-color: orange;
+  transition: 1s ease;
+}
+
+.contact-section table {
+  width: 100%;
+  height: 50vh;
+  color: white;
+  text-align: center;
+
+}
+
+.contact-section table a{
+  text-decoration: none;
+  color: white;
+  /* padding: 10px; */
+}
+
+.contact-section table img{
+  width: 40px;    
+   margin-right: 20px;
+   margin-left: 100px;
+   float: right;
+}
+
+.contact-section table p{
+  text-align: left;
+}
+
+.contact-section table a:hover{
+  border-bottom: 3px solid red;
+}
+
+
+
+
+/* style footer section */
+footer {
+  background-color: bisque;
+  padding: 14px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}

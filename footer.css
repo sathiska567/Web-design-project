@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    list-style: none;
+
+}
+
+.footer-content{
+    font-size: 35px;
+    color: black;
+    list-style: none;
+}
+
+.footer-content ul{
+  list-style: none;
+}
+
+.footer-table td{
+    background-color: rgb(118, 255, 189);
+    height: 30vh;
+    color: white;
+    list-style: none;
+}
+
+.footer-table img{
+  width: 30px;
+}
+
+.footer-content-sub-table{
+    width: 100%;
+    list-style: none;
+    
+}
+
+.modal{
+  display: none;
+  background-color: aqua;
+}
+
+input[type=text]{
+   margin-left: 10px;
+   float: left;
+}
+
+input[type=email]{
+  width: 70%;
+  padding: 15px;
+  margin: 5px 0 22px 10px;
+  display: inline-block;
+  border: 4px dashed black;
+  float: left;
+}
+
+.footer-content-link a{
+    text-decoration: none;
+    /* background-color: bisque; */
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+
+.footer-content-second-tr ul li{
+    list-style: none;
+}
+
+.footer-content-link a:hover{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ff0606;
+}
+
+.footer-content-sub-table-first-td{
+    text-align: right;
+    width: 70%;
+}
+
+.footer-content-sub-table-first-td a{
+   list-style: none;
+   text-decoration: none;
+
+}
+
+.footer-content-sub-table-second-td{
+    text-align: left;
+    width: 30%;
+}
+
+
+/* ========================== */
+.footer-content-signUp-tr h2{
+    font-size: 4rem;
+    color: blueviolet;
+}
+
+.footer-content-signUp-tr button:hover{
+    cursor: pointer;
+    background-color: orange;
+    transition:1s ease-in-out;
+}
+
+/* =========================================================== */
+
+/* input field */
+input[type=text], input[type=password]{
+  width: 70%;
+  padding: 15px;
+  margin: 5px 0 22px 10px;
+  display: inline-block;
+  border: none;
+  float: left;
+
+}
+
+
+.container textarea{
+  float: left;
+  margin: 5px 0 22px 10px;
+
+}
+
+.checkbox-td,
+.radio-td{
+  float: left;
+  padding: 5px 0 22px 10px;
+
+  
+}
+
+
+
+.Username{
+ font-size: 30px;
+}
+
+
+input[type=submit] {
+  width: 10%;
+  cursor: pointer;
+  padding: 8px;
+  background-color: green;
+  font-size: 1rem;
+}
+
+input[type=submit]:hover{
+  transition: 2s ease;
+  background-color: orange;
+
+}
+
+.container table td{
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+/*add backgroud color in to the input field when focus */
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* style buttons */
+button {
+  background-color: #ffad09;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+button:hover {
+  opacity:1;
+}
+
+/* style cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* style container */
+.container {
+  padding: 16px;
+
+}
+
+/* style model */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100vh; 
+  overflow: auto;
+  background-color: #474e5d;
+  padding-top: 50px;
+  color: black;
+}
+
+.modal table{
+  width: 100%;
+  color: black;
+  font-weight: 500;
+
+}
+
+.modal table tr{
+  color: black;
+}
+
+.modal table select{
+  background-color: rgb(118, 255, 189);
+  width: 60%;
+  padding: 10px;
+  border: none;
+  float: left;
+}
+
+.modal table select:active{
+  border: none;
+}
+
+
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  width: 80%; 
+  color: black;
+}
+
+/* Style the hr */
+hr {
+  /* border: 1px solid #f1f1f1; */
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button  */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
